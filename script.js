@@ -25,3 +25,11 @@ if (contactForm) {
     }
   });
 }
+
+function toggleMenu() {
+  const menubtn = document.querySelector(".menu-btn");
+  const navigation = document.querySelector(".navigation");
+
+  menubtn.classList.toggle("active");
+  navigation.classList.toggle("active")
+}
